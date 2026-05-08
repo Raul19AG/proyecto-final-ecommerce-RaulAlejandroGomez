@@ -1,0 +1,106 @@
+header {
+    background-color: blueviolet;
+}
+
+h1 {
+    font-family: "Bitcount Grid Double", system-ui;;
+}
+
+footer {
+    background-color: chartreuse;
+    font-size: 12px;
+   }
+ul {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    list-style: none;
+    color:brown;
+    a {
+        background-color: blue;
+        border-radius: 0.5rem;
+        padding: 0.5rem 01rem;
+        color: antiquewhite;
+        text-decoration: none;
+    }
+    a:hover{
+       color: rgb(59, 170, 39); 
+       text-shadow: 2px 2px 2px black;
+       transition:   0.5s, text-shadow 0.5s;
+       background-color: rgb(0, 213, 255);
+      
+    }
+}
+li { 
+    flex: 1 1 50px;
+        text-decoration: none;
+    }
+h1 {
+    text-align: center;
+    font-size: 48px;
+}
+
+form, input, textarea {
+    width:100%;
+    margin-bottom: 5px;
+}
+table {
+    width: 100%;
+
+}
+td {
+    padding: 2px;
+}
+.ico {
+    width: 25px;;
+    height: 25px;
+}
+.pri {
+    background-image: url(./assets/pngegg.png);
+    background-size: 55%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card, #nos {
+    display: inline-block;
+    border: 1px  solid black;
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+    width: auto;
+    margin-bottom: 10px;
+}
+.prod {
+    border-radius: 05rem;
+    width: 100%;
+}
+span {
+    color: red;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+.btc {
+    background-color: darkseagreen;
+    border-radius: 0.2rem;
+}
+.arti {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.reseñas {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    .card:hover {
+        box-shadow: 1px 1px 10px black;
+       
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .reseñas{
+        grid-template-columns: 1fr;
+    }
+}
