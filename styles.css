@@ -1,5 +1,8 @@
 header {
     background-color: blueviolet;
+    section {
+        justify-content: right;
+    }
 }
 
 h1 {
@@ -80,11 +83,11 @@ span {
     font-weight: bold;
     font-size: 1.25rem;
 }
-.btc {
+.btc, .agregar-carrito {
     background-color: darkseagreen;
     border-radius: 0.2rem;
 }
-.arti {
+#arti, #productos {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -98,7 +101,11 @@ span {
        
     }
 }
-
+.name-class-tabla  {
+    td, th{
+    border:2px solid black
+    }
+}
 @media only screen and (max-width: 768px) {
     .reseñas{
         grid-template-columns: 1fr;

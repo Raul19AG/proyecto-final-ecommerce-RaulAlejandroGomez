@@ -18,20 +18,32 @@
     <header>
         <img src="../assets/ico/logo.png" alt="imagen del logo de la compania" width="200" height="100"><h1>Productos</h1>
     </header>
+    <nav>
+        <ul type="square"> <!-- type none elimina la vinieta, square la hace cuadrada, circle-->
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="./productosApi.html">ProductosApi</a></li>
+            <li><a href="./carrito.html">carrito</a></li>
+            <li><a href="./reseñas.html">Reseñas</a></li>
+            <li><!--<span class="material-symbols-outlined">
+contact_mail
+</span> --> <a href="./pages/contacto.html">Contacto</a></li>
+
+        </ul>
+    </nav>
  <main>
-    <p>Nuestros productos</p>
+    <p>Nuestros Productos</p>
  </main>
     
        
-        <h2>productos destacados</h2>
-    <section class="arti">  
+        <h2>Productos Destacados:</h2>
+    <section id="arti">  
     
 <div class="card">
     <img class="prod" src="https://picsum.photos/200/300?random=1" alt="imagen aleatorea">
     <h2>Nombre del producto</h2>
     <p>Descripcion del producto</p>
     <p>preci: <span>$</span>99.99</p>
-    <button class="btc" ><img class="ico" src="../assets/ico/anadir-a-la-cesta.png" alt="logo carrito">comprar</button>
+    <button class="agregar-carrito" data-id="01" data-nombre="la Imagen" data-precio="$99.00" ><img class="ico" src="../assets/ico/anadir-a-la-cesta.png" alt="logo carrito">comprar</button>
     </div>
 
 <div class="card">
@@ -39,7 +51,7 @@
     <h2>Nombre del producto</h2>
     <p>Descripcion del producto</p>
     <p>preci: <span>$</span>99.99</p>
-    <button class="btc" ><img class="ico" src="../assets/ico/anadir-a-la-cesta.png" alt="logo carrito">comprar</button>
+    <button class="agregar-carrito" data-id="02" data-nombre="la Imagen" data-precio="$99.00" ><img class="ico" src="../assets/ico/anadir-a-la-cesta.png" alt="logo carrito">comprar</button>
     </div>
 
     <div class="card">
@@ -47,13 +59,14 @@
     <h2>Nombre del producto</h2>
     <p>Descripcion del producto</p>
     <p>preci: <span>$</span>99.99</p>
-    <button class="btc" ><img class="ico" src="../assets/ico/anadir-a-la-cesta.png" alt="logo carrito"> comprar</button>
+    <button class="agregar-carrito" data-id="03" data-nombre="la Imagen" data-precio="$99.00" ><img class="ico" src="../assets/ico/anadir-a-la-cesta.png" alt="logo carrito"> comprar</button>
     </div>
     
     </section>
     <ul>
-            <a href="../index.html">Volver</a>
-        </ul>
+ <a href="../index.html">volver</a>
+    </ul>
+     
      <footer>
     <a href="./contacto.html"><span class="material-symbols-outlined">
     call
